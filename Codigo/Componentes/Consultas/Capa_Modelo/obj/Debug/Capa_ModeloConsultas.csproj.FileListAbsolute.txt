@@ -1,6 +1,0 @@
-C:\Users\paolo\OneDrive\Escritorio\Proyecto Final Github\proyectofinalasis222022\Codigo\Componentes\Consultas\Capa_Modelo\bin\Debug\Capa_Modelo.dll
-C:\Users\paolo\OneDrive\Escritorio\Proyecto Final Github\proyectofinalasis222022\Codigo\Componentes\Consultas\Capa_Modelo\bin\Debug\Capa_Modelo.pdb
-C:\Users\paolo\OneDrive\Escritorio\Proyecto Final Github\proyectofinalasis222022\Codigo\Componentes\Consultas\Capa_Modelo\obj\Debug\Capa_ModeloConsultas.csproj.AssemblyReference.cache
-C:\Users\paolo\OneDrive\Escritorio\Proyecto Final Github\proyectofinalasis222022\Codigo\Componentes\Consultas\Capa_Modelo\obj\Debug\Capa_ModeloConsultas.csproj.CoreCompileInputs.cache
-C:\Users\paolo\OneDrive\Escritorio\Proyecto Final Github\proyectofinalasis222022\Codigo\Componentes\Consultas\Capa_Modelo\obj\Debug\Capa_Modelo.dll
-C:\Users\paolo\OneDrive\Escritorio\Proyecto Final Github\proyectofinalasis222022\Codigo\Componentes\Consultas\Capa_Modelo\obj\Debug\Capa_Modelo.pdb
