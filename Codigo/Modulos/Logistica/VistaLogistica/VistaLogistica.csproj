@@ -131,6 +131,12 @@
     <Compile Include="ReporteriaNotas.Designer.cs">
       <DependentUpon>ReporteriaNotas.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReporterianotasEF.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporterianotasEF.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CrystalReport1.rpt">
@@ -168,6 +174,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ReporteriaNotas.resx">
       <DependentUpon>ReporteriaNotas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporterianotasEF.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReporterianotasEF.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

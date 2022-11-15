@@ -13,8 +13,6 @@ namespace VistaLogistica
     public partial class Alumnos : Form
     {
 
-        Menu mn = new Menu();
-        string table = "tbl_alumnos";
         public Alumnos()
         {
             InitializeComponent();

@@ -40,6 +40,8 @@ namespace VistaLogistica
             this.txtact = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.navegador1 = new NavegadorVista.Navegador();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgMarca)).BeginInit();
             this.SuspendLayout();
@@ -63,6 +65,8 @@ namespace VistaLogistica
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.txtact);
             this.groupBox2.Controls.Add(this.textBox1);
@@ -109,7 +113,7 @@ namespace VistaLogistica
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(406, 63);
+            this.textBox1.Location = new System.Drawing.Point(403, 86);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 20);
             this.textBox1.TabIndex = 3;
@@ -118,7 +122,7 @@ namespace VistaLogistica
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(372, 66);
+            this.label3.Location = new System.Drawing.Point(369, 89);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(28, 13);
             this.label3.TabIndex = 2;
@@ -126,7 +130,7 @@ namespace VistaLogistica
             // 
             // txtact
             // 
-            this.txtact.Location = new System.Drawing.Point(444, 24);
+            this.txtact.Location = new System.Drawing.Point(430, 16);
             this.txtact.Name = "txtact";
             this.txtact.Size = new System.Drawing.Size(17, 20);
             this.txtact.TabIndex = 5;
@@ -135,7 +139,7 @@ namespace VistaLogistica
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(386, 27);
+            this.label4.Location = new System.Drawing.Point(372, 16);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(40, 13);
             this.label4.TabIndex = 6;
@@ -148,6 +152,23 @@ namespace VistaLogistica
             this.navegador1.Size = new System.Drawing.Size(574, 152);
             this.navegador1.TabIndex = 41;
             this.navegador1.Load += new System.EventHandler(this.navegador1_Load);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(403, 56);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(120, 20);
+            this.textBox2.TabIndex = 8;
+            this.textBox2.Tag = "aula";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(369, 59);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(28, 13);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Aula";
             // 
             // Cursos
             // 
@@ -180,5 +201,7 @@ namespace VistaLogistica
         private System.Windows.Forms.TextBox txtact;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label5;
     }
 }
