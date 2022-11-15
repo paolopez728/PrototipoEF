@@ -35,12 +35,11 @@ namespace VistaLogistica
             this.txtMarca = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.dtgMarca = new System.Windows.Forms.DataGridView();
-            this.navegador1 = new NavegadorVista.Navegador();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtact = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.navegador1 = new NavegadorVista.Navegador();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgMarca)).BeginInit();
             this.SuspendLayout();
@@ -51,7 +50,7 @@ namespace VistaLogistica
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(177, 20);
             this.txtBuscar.TabIndex = 1;
-            this.txtBuscar.Tag = "pk_codigo_marca";
+            this.txtBuscar.Tag = "nombre_curso";
             // 
             // label1
             // 
@@ -66,7 +65,6 @@ namespace VistaLogistica
             // 
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.txtact);
-            this.groupBox2.Controls.Add(this.checkBox1);
             this.groupBox2.Controls.Add(this.textBox1);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.txtMarca);
@@ -86,7 +84,7 @@ namespace VistaLogistica
             this.txtMarca.Name = "txtMarca";
             this.txtMarca.Size = new System.Drawing.Size(177, 20);
             this.txtMarca.TabIndex = 1;
-            this.txtMarca.Tag = "nombre_marca";
+            this.txtMarca.Tag = "codigo_del_curso";
             // 
             // label2
             // 
@@ -107,15 +105,7 @@ namespace VistaLogistica
             this.dtgMarca.RowTemplate.Height = 24;
             this.dtgMarca.Size = new System.Drawing.Size(574, 220);
             this.dtgMarca.TabIndex = 40;
-            this.dtgMarca.Tag = "tbl_marca";
-            // 
-            // navegador1
-            // 
-            this.navegador1.Location = new System.Drawing.Point(9, 11);
-            this.navegador1.Name = "navegador1";
-            this.navegador1.Size = new System.Drawing.Size(574, 152);
-            this.navegador1.TabIndex = 41;
-            this.navegador1.Load += new System.EventHandler(this.navegador1_Load);
+            this.dtgMarca.Tag = "tbl_cursos";
             // 
             // textBox1
             // 
@@ -123,7 +113,7 @@ namespace VistaLogistica
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(120, 20);
             this.textBox1.TabIndex = 3;
-            this.textBox1.Tag = "pk_codigo_marca";
+            this.textBox1.Tag = "aula";
             // 
             // label3
             // 
@@ -136,22 +126,11 @@ namespace VistaLogistica
             // 
             // txtact
             // 
-            this.txtact.Location = new System.Drawing.Point(509, 24);
+            this.txtact.Location = new System.Drawing.Point(444, 24);
             this.txtact.Name = "txtact";
             this.txtact.Size = new System.Drawing.Size(17, 20);
             this.txtact.TabIndex = 5;
-            this.txtact.Tag = "estatus_producto";
-            this.txtact.Visible = false;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(450, 26);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(56, 17);
-            this.checkBox1.TabIndex = 4;
-            this.checkBox1.Text = "Activo";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.txtact.Tag = "estado_curso";
             // 
             // label4
             // 
@@ -161,6 +140,14 @@ namespace VistaLogistica
             this.label4.Size = new System.Drawing.Size(40, 13);
             this.label4.TabIndex = 6;
             this.label4.Text = "Estado";
+            // 
+            // navegador1
+            // 
+            this.navegador1.Location = new System.Drawing.Point(9, 11);
+            this.navegador1.Name = "navegador1";
+            this.navegador1.Size = new System.Drawing.Size(574, 152);
+            this.navegador1.TabIndex = 41;
+            this.navegador1.Load += new System.EventHandler(this.navegador1_Load);
             // 
             // Cursos
             // 
@@ -191,7 +178,6 @@ namespace VistaLogistica
         private NavegadorVista.Navegador navegador1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtact;
-        private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label3;
     }

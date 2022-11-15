@@ -40,7 +40,6 @@ namespace VistaLogistica
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txtact = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtgLinea)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -55,13 +54,12 @@ namespace VistaLogistica
             this.dtgLinea.RowTemplate.Height = 24;
             this.dtgLinea.Size = new System.Drawing.Size(565, 199);
             this.dtgLinea.TabIndex = 48;
-            this.dtgLinea.Tag = "tbl_linea";
+            this.dtgLinea.Tag = "tbl_alumnos";
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.txtact);
-            this.groupBox2.Controls.Add(this.checkBox1);
             this.groupBox2.Controls.Add(this.textBox1);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.txtLinea);
@@ -81,7 +79,7 @@ namespace VistaLogistica
             this.txtLinea.Name = "txtLinea";
             this.txtLinea.Size = new System.Drawing.Size(177, 20);
             this.txtLinea.TabIndex = 1;
-            this.txtLinea.Tag = "nombre_linea";
+            this.txtLinea.Tag = "apellido_alumno";
             // 
             // txtBuscar
             // 
@@ -89,7 +87,7 @@ namespace VistaLogistica
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(177, 20);
             this.txtBuscar.TabIndex = 1;
-            this.txtBuscar.Tag = "pk_codigo_linea";
+            this.txtBuscar.Tag = "nombre_alumno";
             // 
             // label1
             // 
@@ -124,7 +122,7 @@ namespace VistaLogistica
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(188, 20);
             this.textBox1.TabIndex = 3;
-            this.textBox1.Tag = "nombre_linea";
+            this.textBox1.Tag = "email_alumno";
             // 
             // label3
             // 
@@ -138,30 +136,19 @@ namespace VistaLogistica
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(388, 30);
+            this.label4.Location = new System.Drawing.Point(407, 33);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(40, 13);
-            this.label4.TabIndex = 9;
+            this.label4.TabIndex = 8;
             this.label4.Text = "Estado";
             // 
             // txtact
             // 
-            this.txtact.Location = new System.Drawing.Point(511, 27);
+            this.txtact.Location = new System.Drawing.Point(465, 30);
             this.txtact.Name = "txtact";
             this.txtact.Size = new System.Drawing.Size(17, 20);
-            this.txtact.TabIndex = 8;
-            this.txtact.Tag = "estatus_producto";
-            this.txtact.Visible = false;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(452, 29);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(56, 17);
-            this.checkBox1.TabIndex = 7;
-            this.checkBox1.Text = "Activo";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.txtact.TabIndex = 7;
+            this.txtact.Tag = "estado_usuario";
             // 
             // Alumnos
             // 
@@ -194,6 +181,5 @@ namespace VistaLogistica
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtact;
-        private System.Windows.Forms.CheckBox checkBox1;
     }
 }

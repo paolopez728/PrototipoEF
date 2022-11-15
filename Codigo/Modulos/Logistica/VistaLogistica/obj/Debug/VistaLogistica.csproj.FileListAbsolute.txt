@@ -125,3 +125,4 @@ C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\PrototipoEF\Codigo\Modulos\Logi
 C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\PrototipoEF\Codigo\Modulos\Logistica\VistaLogistica\obj\Debug\VistaLogistica.Alumnos.resources
 C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\PrototipoEF\Codigo\Modulos\Logistica\VistaLogistica\obj\Debug\VistaLogistica.Cursos.resources
 C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\PrototipoEF\Codigo\Modulos\Logistica\VistaLogistica\obj\Debug\VistaLogistica.Notas.resources
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\PrototipoEF\Codigo\Modulos\Logistica\VistaLogistica\obj\Debug\VistaLogistica.ReporteriaNotas.resources

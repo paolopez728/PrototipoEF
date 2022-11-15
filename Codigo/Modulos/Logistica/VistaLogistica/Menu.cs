@@ -26,12 +26,12 @@ namespace VistaLogistica
             Button[] apps = { btnCursos, btnAlumnos, btnIngresoNotas, btnNotas, btseguridadsegundo, btrayuda };
             cnseg.deshabilitarApps(apps);
 
-            cnseg.getAccesoApp(2001, apps[0]);
-            cnseg.getAccesoApp(2002, apps[1]);
-            cnseg.getAccesoApp(2003, apps[2]);
-            cnseg.getAccesoApp(2004, apps[3]);
-            cnseg.getAccesoApp(2005, apps[4]);
-            cnseg.getAccesoApp(2006, apps[5]);
+            cnseg.getAccesoApp(6001, apps[0]);
+            cnseg.getAccesoApp(6002, apps[1]);
+            cnseg.getAccesoApp(6003, apps[2]);
+            cnseg.getAccesoApp(6004, apps[3]);
+            cnseg.getAccesoApp(6005, apps[4]);
+            cnseg.getAccesoApp(6006, apps[5]);
 
         }
         private void customizeDesing()

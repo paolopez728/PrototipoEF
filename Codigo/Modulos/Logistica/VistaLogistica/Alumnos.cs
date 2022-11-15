@@ -12,6 +12,9 @@ namespace VistaLogistica
 {
     public partial class Alumnos : Form
     {
+
+        Menu mn = new Menu();
+        string table = "tbl_alumnos";
         public Alumnos()
         {
             InitializeComponent();
@@ -25,14 +28,14 @@ namespace VistaLogistica
 
         private void navegador1_Load(object sender, EventArgs e)
         {
-            NavegadorVista.Navegador.idApp = "2002";
-            TextBox[] Grupotextbox = { txtBuscar, txtLinea };
-            TextBox[] Idtextbox = { txtBuscar, txtLinea };
+            NavegadorVista.Navegador.idApp = "6002";
+            TextBox[] Grupotextbox = { txtBuscar, txtLinea, textBox1, txtact};
+            TextBox[] Idtextbox = { txtBuscar, txtLinea, textBox1, txtact};
             navegador1.textbox = Grupotextbox;
             navegador1.tabla = dtgLinea;
             navegador1.textboxi = Idtextbox;
             navegador1.actual = this;
-            navegador1.cargar(dtgLinea, Grupotextbox, "bd_logistica");
+            navegador1.cargar(dtgLinea, Grupotextbox, "prototipoef0901192375");
         }
     }
 }

@@ -7,3 +7,12 @@ C:\Users\paolo\OneDrive\Escritorio\Proyecto Final Github\proyectofinalasis222022
 C:\Users\paolo\OneDrive\Escritorio\Proyecto Final Github\proyectofinalasis222022\Codigo\Modulos\Logistica\ControladorLogistica\obj\Debug\ControladorLogistica.csproj.CopyComplete
 C:\Users\paolo\OneDrive\Escritorio\Proyecto Final Github\proyectofinalasis222022\Codigo\Modulos\Logistica\ControladorLogistica\obj\Debug\ControladorLogistica.dll
 C:\Users\paolo\OneDrive\Escritorio\Proyecto Final Github\proyectofinalasis222022\Codigo\Modulos\Logistica\ControladorLogistica\obj\Debug\ControladorLogistica.pdb
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\PrototipoEF\Codigo\Modulos\Logistica\ControladorLogistica\bin\Debug\ControladorLogistica.dll
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\PrototipoEF\Codigo\Modulos\Logistica\ControladorLogistica\bin\Debug\ControladorLogistica.pdb
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\PrototipoEF\Codigo\Modulos\Logistica\ControladorLogistica\bin\Debug\ModeloLogistica.dll
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\PrototipoEF\Codigo\Modulos\Logistica\ControladorLogistica\bin\Debug\ModeloLogistica.pdb
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\PrototipoEF\Codigo\Modulos\Logistica\ControladorLogistica\obj\Debug\ControladorLogistica.csproj.AssemblyReference.cache
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\PrototipoEF\Codigo\Modulos\Logistica\ControladorLogistica\obj\Debug\ControladorLogistica.csproj.CoreCompileInputs.cache
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\PrototipoEF\Codigo\Modulos\Logistica\ControladorLogistica\obj\Debug\ControladorLogistica.csproj.CopyComplete
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\PrototipoEF\Codigo\Modulos\Logistica\ControladorLogistica\obj\Debug\ControladorLogistica.dll
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\PrototipoEF\Codigo\Modulos\Logistica\ControladorLogistica\obj\Debug\ControladorLogistica.pdb

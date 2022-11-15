@@ -125,6 +125,12 @@
     <Compile Include="ReporteriaMovimientos.Designer.cs">
       <DependentUpon>ReporteriaMovimientos.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReporteriaNotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteriaNotas.Designer.cs">
+      <DependentUpon>ReporteriaNotas.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CrystalReport1.rpt">
@@ -159,6 +165,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ReporteriaMovimientos.resx">
       <DependentUpon>ReporteriaMovimientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteriaNotas.resx">
+      <DependentUpon>ReporteriaNotas.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

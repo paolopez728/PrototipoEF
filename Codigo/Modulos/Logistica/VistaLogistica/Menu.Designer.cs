@@ -65,7 +65,7 @@ namespace VistaLogistica
             // panelSideMenu
             // 
             this.panelSideMenu.AutoScroll = true;
-            this.panelSideMenu.BackColor = System.Drawing.Color.Goldenrod;
+            this.panelSideMenu.BackColor = System.Drawing.Color.LimeGreen;
             this.panelSideMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panelSideMenu.Controls.Add(this.btnSalida);
             this.panelSideMenu.Controls.Add(this.panelayuda);
@@ -87,7 +87,7 @@ namespace VistaLogistica
             // 
             // btnSalida
             // 
-            this.btnSalida.BackColor = System.Drawing.Color.Goldenrod;
+            this.btnSalida.BackColor = System.Drawing.Color.LimeGreen;
             this.btnSalida.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnSalida.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnSalida.FlatAppearance.BorderSize = 0;
@@ -106,7 +106,7 @@ namespace VistaLogistica
             // 
             // panelayuda
             // 
-            this.panelayuda.BackColor = System.Drawing.Color.Khaki;
+            this.panelayuda.BackColor = System.Drawing.Color.LimeGreen;
             this.panelayuda.Controls.Add(this.btrayuda);
             this.panelayuda.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelayuda.Location = new System.Drawing.Point(0, 468);
@@ -116,6 +116,7 @@ namespace VistaLogistica
             // 
             // btrayuda
             // 
+            this.btrayuda.BackColor = System.Drawing.Color.PaleGreen;
             this.btrayuda.Dock = System.Windows.Forms.DockStyle.Top;
             this.btrayuda.FlatAppearance.BorderSize = 0;
             this.btrayuda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -127,12 +128,12 @@ namespace VistaLogistica
             this.btrayuda.TabIndex = 0;
             this.btrayuda.Text = "INFORMACION";
             this.btrayuda.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btrayuda.UseVisualStyleBackColor = true;
+            this.btrayuda.UseVisualStyleBackColor = false;
             this.btrayuda.Click += new System.EventHandler(this.btrayuda_Click);
             // 
             // btnayu
             // 
-            this.btnayu.BackColor = System.Drawing.Color.Goldenrod;
+            this.btnayu.BackColor = System.Drawing.Color.LimeGreen;
             this.btnayu.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnayu.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnayu.FlatAppearance.BorderSize = 0;
@@ -151,7 +152,7 @@ namespace VistaLogistica
             // 
             // panelseguridad
             // 
-            this.panelseguridad.BackColor = System.Drawing.Color.Khaki;
+            this.panelseguridad.BackColor = System.Drawing.Color.LimeGreen;
             this.panelseguridad.Controls.Add(this.btseguridadsegundo);
             this.panelseguridad.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelseguridad.Location = new System.Drawing.Point(0, 385);
@@ -161,6 +162,7 @@ namespace VistaLogistica
             // 
             // btseguridadsegundo
             // 
+            this.btseguridadsegundo.BackColor = System.Drawing.Color.PaleGreen;
             this.btseguridadsegundo.Dock = System.Windows.Forms.DockStyle.Top;
             this.btseguridadsegundo.FlatAppearance.BorderSize = 0;
             this.btseguridadsegundo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -172,12 +174,12 @@ namespace VistaLogistica
             this.btseguridadsegundo.TabIndex = 0;
             this.btseguridadsegundo.Text = "Seguridad";
             this.btseguridadsegundo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btseguridadsegundo.UseVisualStyleBackColor = true;
+            this.btseguridadsegundo.UseVisualStyleBackColor = false;
             this.btseguridadsegundo.Click += new System.EventHandler(this.btseguridadsegundo_Click);
             // 
             // btnseguridad
             // 
-            this.btnseguridad.BackColor = System.Drawing.Color.Goldenrod;
+            this.btnseguridad.BackColor = System.Drawing.Color.LimeGreen;
             this.btnseguridad.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnseguridad.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnseguridad.FlatAppearance.BorderSize = 0;
@@ -206,6 +208,7 @@ namespace VistaLogistica
             // 
             // btnNotas
             // 
+            this.btnNotas.BackColor = System.Drawing.Color.PaleGreen;
             this.btnNotas.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnNotas.FlatAppearance.BorderSize = 0;
             this.btnNotas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -217,12 +220,12 @@ namespace VistaLogistica
             this.btnNotas.TabIndex = 0;
             this.btnNotas.Text = "Notas";
             this.btnNotas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNotas.UseVisualStyleBackColor = true;
+            this.btnNotas.UseVisualStyleBackColor = false;
             this.btnNotas.Click += new System.EventHandler(this.btnMuestreo_Click);
             // 
             // btnAuditoria
             // 
-            this.btnAuditoria.BackColor = System.Drawing.Color.Goldenrod;
+            this.btnAuditoria.BackColor = System.Drawing.Color.LimeGreen;
             this.btnAuditoria.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnAuditoria.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnAuditoria.FlatAppearance.BorderSize = 0;
@@ -251,6 +254,7 @@ namespace VistaLogistica
             // 
             // btnIngresoNotas
             // 
+            this.btnIngresoNotas.BackColor = System.Drawing.Color.PaleGreen;
             this.btnIngresoNotas.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnIngresoNotas.FlatAppearance.BorderSize = 0;
             this.btnIngresoNotas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -262,12 +266,12 @@ namespace VistaLogistica
             this.btnIngresoNotas.TabIndex = 0;
             this.btnIngresoNotas.Text = "Ingresar Notas";
             this.btnIngresoNotas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnIngresoNotas.UseVisualStyleBackColor = true;
+            this.btnIngresoNotas.UseVisualStyleBackColor = false;
             this.btnIngresoNotas.Click += new System.EventHandler(this.btnTraslados_Click);
             // 
             // btnTransporte
             // 
-            this.btnTransporte.BackColor = System.Drawing.Color.Goldenrod;
+            this.btnTransporte.BackColor = System.Drawing.Color.LimeGreen;
             this.btnTransporte.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnTransporte.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnTransporte.FlatAppearance.BorderSize = 0;
@@ -286,7 +290,7 @@ namespace VistaLogistica
             // 
             // paninvent
             // 
-            this.paninvent.BackColor = System.Drawing.Color.Khaki;
+            this.paninvent.BackColor = System.Drawing.Color.LimeGreen;
             this.paninvent.Controls.Add(this.btnAlumnos);
             this.paninvent.Controls.Add(this.btnCursos);
             this.paninvent.Dock = System.Windows.Forms.DockStyle.Top;
@@ -297,6 +301,7 @@ namespace VistaLogistica
             // 
             // btnAlumnos
             // 
+            this.btnAlumnos.BackColor = System.Drawing.Color.PaleGreen;
             this.btnAlumnos.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnAlumnos.FlatAppearance.BorderSize = 0;
             this.btnAlumnos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -308,12 +313,12 @@ namespace VistaLogistica
             this.btnAlumnos.TabIndex = 1;
             this.btnAlumnos.Text = "Alumnos";
             this.btnAlumnos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAlumnos.UseVisualStyleBackColor = true;
+            this.btnAlumnos.UseVisualStyleBackColor = false;
             this.btnAlumnos.Click += new System.EventHandler(this.btnCierre_Click);
             // 
             // btnCursos
             // 
-            this.btnCursos.BackColor = System.Drawing.Color.Khaki;
+            this.btnCursos.BackColor = System.Drawing.Color.PaleGreen;
             this.btnCursos.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnCursos.FlatAppearance.BorderSize = 0;
             this.btnCursos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -330,7 +335,7 @@ namespace VistaLogistica
             // 
             // btnInventarios
             // 
-            this.btnInventarios.BackColor = System.Drawing.Color.Goldenrod;
+            this.btnInventarios.BackColor = System.Drawing.Color.LimeGreen;
             this.btnInventarios.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnInventarios.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnInventarios.FlatAppearance.BorderSize = 0;
@@ -358,7 +363,7 @@ namespace VistaLogistica
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox1.BackColor = System.Drawing.Color.PaleGreen;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";

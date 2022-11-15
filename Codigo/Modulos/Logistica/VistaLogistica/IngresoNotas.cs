@@ -95,7 +95,7 @@ namespace VistaLogistica
 
         private void AsignacionPuestoDepto_Load(object sender, EventArgs e)
         {
-            textBox1.Visible = false;
+            
             cn.llenarListPuestos(dataGridView1.Tag.ToString(), dataGridView1);
         }
 
@@ -122,8 +122,8 @@ namespace VistaLogistica
 
             foreach (var word in words)
             {
-                textBox1.Text = word;
-                TextBox[] textbox = { txtIdBodega, textBox1, txtExistencia };
+                txtIdProducto.Text = word;
+                TextBox[] textbox = { txtIdBodega, txtIdProducto, txtExistencia };
                 cn.ingresar(textbox, table);
             }
             string message = "Registro Guardado";

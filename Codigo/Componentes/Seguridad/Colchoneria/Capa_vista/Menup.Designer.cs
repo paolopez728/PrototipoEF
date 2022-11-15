@@ -78,7 +78,7 @@ namespace Vista_Seguridad
             this.btlogistica.Padding = new System.Windows.Forms.Padding(51, 0, 0, 0);
             this.btlogistica.Size = new System.Drawing.Size(250, 39);
             this.btlogistica.TabIndex = 0;
-            this.btlogistica.Text = "NOTAS";
+            this.btlogistica.Text = "LOGISTICA";
             this.btlogistica.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btlogistica.UseVisualStyleBackColor = false;
             this.btlogistica.Click += new System.EventHandler(this.btlogistica_Click);
@@ -135,7 +135,7 @@ namespace Vista_Seguridad
             this.btnnominas.Padding = new System.Windows.Forms.Padding(51, 0, 0, 0);
             this.btnnominas.Size = new System.Drawing.Size(250, 39);
             this.btnnominas.TabIndex = 8;
-            this.btnnominas.Text = "NOMINAS";
+            this.btnnominas.Text = "NOTAS";
             this.btnnominas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnnominas.UseVisualStyleBackColor = false;
             this.btnnominas.Click += new System.EventHandler(this.btnnominas_Click);

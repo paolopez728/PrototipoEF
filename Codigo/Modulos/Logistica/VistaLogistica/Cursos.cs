@@ -14,7 +14,7 @@ namespace VistaLogistica
     public partial class Cursos : Form
     {
         Menu mn = new Menu();
-        string table = "tbl_marca";
+        string table = "tbl_cursos";
         //ControladorLogistica.Controlador cn = new Controlador();
         public Cursos()
         {
@@ -70,14 +70,14 @@ namespace VistaLogistica
 
         private void navegador1_Load(object sender, EventArgs e)
         {
-            NavegadorVista.Navegador.idApp = "2001";
-            TextBox[] Grupotextbox = { txtBuscar, txtMarca };
-            TextBox[] Idtextbox = { txtBuscar, txtMarca };
+            NavegadorVista.Navegador.idApp = "6001";
+            TextBox[] Grupotextbox = { txtBuscar, txtMarca, textBox1, txtact };
+            TextBox[] Idtextbox = { txtBuscar, txtMarca , textBox1, txtact};
             navegador1.textbox = Grupotextbox;
             navegador1.tabla = dtgMarca;
             navegador1.textboxi = Idtextbox;
             navegador1.actual = this;
-            navegador1.cargar(dtgMarca, Grupotextbox, "bd_logistica");
+            navegador1.cargar(dtgMarca, Grupotextbox, "prototipoef0901192375");
         }
     }
 }
